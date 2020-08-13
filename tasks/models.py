@@ -6,6 +6,8 @@ from django.urls import reverse
 class Category(models.Model):
     slug = models.CharField(max_length=128)
     name = models.CharField(max_length=256)
+
+    # счетчик задач в Категории
     todos_count = models.PositiveIntegerField(default=0)
 
     class Meta:
@@ -18,6 +20,8 @@ class Category(models.Model):
 
 class Priority(models.Model):
     name = models.CharField(max_length=256)
+
+    # счетчик задач в заданном Приоритете
     todos_count = models.PositiveIntegerField(default=0)
 
     class Meta:
