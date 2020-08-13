@@ -1,0 +1,148 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$150000$vrelVRR1xX5l$ZGH8Rxab7jSJs2Wp6URa2NTe1jwGcN22VyIZLveOmmo=",
+        "last_login": "2020-08-12T09:42:03.913",
+        "is_superuser": true,
+        "username": "pws_admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@mail.mail",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-08-12T05:48:28.287",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "p0eloagknq8avqjv8wr8dc20orpveufj",
+    "fields": {
+        "session_data": "NGU3ODkwZWRjZjNjNGM2ZGY0ODIxY2MyN2I2YzU5Y2YzNmJjNjVlNjp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJhNTZkZDNhZDQwZTk4NWFkMDQ4OTdjMGM0NjI3Y2YyZWIzZjI2NDQwIn0=",
+        "expire_date": "2020-08-26T09:42:04.104"
+    }
+},
+{
+    "model": "tasks.category",
+    "pk": 1,
+    "fields": {
+        "slug": "stupid-cat",
+        "name": "\u0414\u0443\u0440\u0430\u0446\u043a\u0430\u044f \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+        "todos_count": 2
+    }
+},
+{
+    "model": "tasks.category",
+    "pk": 2,
+    "fields": {
+        "slug": "funny-cat",
+        "name": "\u0417\u0430\u0431\u0430\u0432\u043d\u0430\u044f \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+        "todos_count": 2
+    }
+},
+{
+    "model": "tasks.category",
+    "pk": 3,
+    "fields": {
+        "slug": "great-cat",
+        "name": "\u041e\u0444\u0438\u0433\u0435\u043d\u043d\u0430\u044f \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f",
+        "todos_count": 2
+    }
+},
+{
+    "model": "tasks.priority",
+    "pk": 1,
+    "fields": {
+        "name": "\u041d\u0438\u0437\u043a\u0438\u0439 \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442",
+        "todos_count": 1
+    }
+},
+{
+    "model": "tasks.priority",
+    "pk": 2,
+    "fields": {
+        "name": "\u0421\u0440\u0435\u0434\u043d\u0438\u0439 \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442",
+        "todos_count": 1
+    }
+},
+{
+    "model": "tasks.priority",
+    "pk": 3,
+    "fields": {
+        "name": "\u0412\u044b\u0441\u043e\u043a\u0438\u0439 \u043f\u0440\u0438\u043e\u0440\u0438\u0442\u0435\u0442",
+        "todos_count": 2
+    }
+},
+{
+    "model": "tasks.todoitem",
+    "pk": 5,
+    "fields": {
+        "description": "\u041f\u043e\u043a\u043e\u0440\u043c\u0438\u0442\u044c \u043a\u043e\u0442\u0430",
+        "is_completed": true,
+        "created": "2020-08-12T07:47:35.683",
+        "updated": "2020-08-12T09:51:37.544",
+        "owner": [
+            "pws_admin"
+        ],
+        "priority": 1,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "tasks.todoitem",
+    "pk": 6,
+    "fields": {
+        "description": "\u0421\u044a\u0435\u0441\u0442\u044c \u0442\u043e\u0440\u0442",
+        "is_completed": false,
+        "created": "2020-08-12T07:47:50.381",
+        "updated": "2020-08-12T09:52:17.658",
+        "owner": [
+            "pws_admin"
+        ],
+        "priority": 3,
+        "category": [
+            2,
+            3
+        ]
+    }
+},
+{
+    "model": "tasks.todoitem",
+    "pk": 8,
+    "fields": {
+        "description": "\u041f\u043e\u0441\u043f\u0430\u0442\u044c",
+        "is_completed": false,
+        "created": "2020-08-12T07:48:28.321",
+        "updated": "2020-08-12T09:54:48.471",
+        "owner": [
+            "pws_admin"
+        ],
+        "priority": 2,
+        "category": [
+            1
+        ]
+    }
+},
+{
+    "model": "tasks.todoitem",
+    "pk": 9,
+    "fields": {
+        "description": "\u0423\u0435\u0445\u0430\u0442\u044c \u0432 \u043e\u0442\u043f\u0443\u0441\u043a",
+        "is_completed": false,
+        "created": "2020-08-12T07:48:47.820",
+        "updated": "2020-08-12T09:55:05.381",
+        "owner": [
+            "pws_admin"
+        ],
+        "priority": 3,
+        "category": [
+            2,
+            3
+        ]
+    }
+},
+]
